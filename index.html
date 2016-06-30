@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Grand Aston</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="aset/bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="aset/style/style.css" rel="stylesheet">
+    </head>
+    <body>
+    <div class="container">
+        <div id="form_div">
+            <form class="form-vertical login" name="login" id="login" action="" method="post">
+
+                <input type="hidden" name="dst" value="$(link-orig)" />
+                <input type="hidden" name="popup" value="true" />
+
+                <div class="form-group">
+                    <input placeholder="Username" onfocus="this.placeholder=''" onblur="this.placeholder='Username'" type="text" id="username" name="username" class="form-control custom_input" value="">
+                </div>
+
+                <div class="form-group">
+                    <input placeholder="Password" onfocus="this.placeholder=''" onblur="this.placeholder='Password'" type="password" id="password" name="password " class="form-control custom_input">
+                </div>
+
+                <input id="login_button" type="image" src="aset/images/login_button.png" alt="Submit" width="219" height="33">
+
+                <p class="error">Error</p>
+            </form>
+        </div>
+
+        <div class="d" id="footer_area">
+            <p>Powered by <a href="http://www.gmedia.net.id">PT. Media Sarana Data</a></p>
+        </div>
+    </div>
+
+    <script src="aset/jquery/jquery.min.js"></script>
+    <script type="text/javascript">
+        <!--
+            document.login.username.focus();
+        //-->
+    </script>
+  </body>
+</html>
